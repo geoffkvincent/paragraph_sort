@@ -8,7 +8,7 @@ def para_sort
 
   para_arr.each do |p|
   counts[p] += 1
-end
+  end
   
   puts counts
 end
