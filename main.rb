@@ -1,7 +1,10 @@
 
 
 def para_sort
-  put "Enter Paragraph"
+  puts "Enter Paragraph"
   para = gets.gsub(/[^a-zA-Z ]/,'').gsub(/ +/,' ')
-
+  
+  puts para
 end
+
+para_sort
